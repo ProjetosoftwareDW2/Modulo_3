@@ -1,0 +1,153 @@
+﻿
+@{Layout = null;}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    @Styles.Render("~/Content/css")
+    <title>Indicadores</title>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <div class="container">
+                    <li>
+                        <h1 class="tituloHome">SISTEMA DE APOIO</h1>
+                    </li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Indicadores</a></li>
+                    <li><a href="#">Itens Indicadores</a></li>
+                    <li><a href="#">Relação Item Indicadores</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h1 class="titulo"><b>Relaçao entre Itens Indicadores</b></h1>
+        <div class="container">
+
+
+
+        </div>
+
+        <section class="container">
+            <div class="esquerda">
+                <select class="input-group dropdown">
+                    <option value="1">Opção 1</option>
+                    <option value="2">Opção 2</option>
+                    <option value="3">Opção 3</option>
+                    <option value="4">Opção 4</option>
+                </select>
+                <table class="table tabela table-bordered">
+                    <thead>
+                        <tr>
+                            <th class="center" scope="col"><b>Itens Indicadores</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item 1</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="esquerda">
+
+                <select class="input-group dropdown">
+                    <option value="1">Opção 1</option>
+                    <option value="2">Opção 2</option>
+                    <option value="3">Opção 3</option>
+                    <option value="4">Opção 4</option>
+                </select>
+
+                <table class="table tabela table-bordered">
+                    <thead>
+                        <tr>
+                            <th class="center" scope="col"><b>Itens Indicadores</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Item 1</td>
+                        </tr>
+                        <tr>
+                            <td>Item 2</td>
+                        </tr>
+                        <tr>
+                            <td>Item 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <div class="container limpar">
+
+
+            <form action="#">
+                Justificativa:<br>
+                <textarea rows="2" cols="40"></textarea>
+                <input class="botao" type="submit" value="Adicionar Relação">
+            </form>
+
+
+        </div>
+
+        <div class="container tabelaRelacao limpar">
+
+
+            <h1 class="tituloRelacoes"><b>Relações</b></h1>
+
+            <table class="tableRelacao tabela table-bordered center">
+                <thead>
+                    <tr>
+                        <th scope="col"><b>#</b></th>
+                        <th scope="col"><b>Desafios</b></th>
+                        <th scope="col"><b>Abordagem</b></th>
+                        <th scope="col"><b>Justificativa</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">1</td>
+                        <td>Item 1</td>
+                        <td>Item 3</td>
+                        <td>xxxxxxxxxxx</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">2</td>
+                        <td>Item 3</td>
+                        <td>Item 2</td>
+                        <td>yyyyyyyyyyy</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">3</td>
+                        <td>Item 2</td>
+                        <td>Item 2</td>
+                        <td>zzzzzzzz</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
+    </main>
+</body>
+</html>
